@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishwateja Keys Maker</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="vishwa.css" />
+  </head>
+  <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <div id="pre-loader"></div>
+
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="/Home">
+            <img
+              src="/images/vishwateja-keysmaker-high-resolution-logo-transparent.png"
+              alt="logo"
+              class="logo"
+              id="Home"
+          /></a>
+        </div>
+        <nav>
+          <ul id="menuItems">
+            <a href="#Home"> <li>Home</li> </a>
+            <a href="#About"> <li>About</li> </a>
+            <a href="#Services"> <li>Services</li> </a>
+            <a href="#contact"> <li>Conatct</li> </a>
+          </ul>
+
+          <img
+            src="images/menu_3945664.png"
+            alt="menu"
+            class="menu-icon"
+            width="30px"
+            height="35px"
+            style="margin-left: 20px; padding-top: 2px; cursor: pointer"
+            onclick="onToggle()"
+          />
+        </nav>
+      </div>
+    </div>
+    <script>
+      let menuIltesList = document.getElementById("menuItems");
+      menuIltesList.style.maxHeight = "0px";
+
+      function onToggle() {
+        if (menuIltesList.style.maxHeight == "0px") {
+          menuIltesList.style.maxHeight = "200px";
+        } else {
+          menuIltesList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+    <script>
+      var loader = document.getElementById("pre-loader");
+
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          loader.style.display = "none";
+        }, 2500);
+      });
+    </script>
+
+    <!----------------------------------------------------------home------------------------------------>
+    <div class="home-cont" id="Home">
+      <div class="home-cont1">
+        <h3 class="heading">24/7 EMERGENCY CALL</h3>
+        <h1 class="heading1 animate__fadeInRight" style ="animation-delay: 1s;">
+          We Provide Best <span>Locksmith</span> Services That You Can Trust
+        </h1>
+        <p class="para animate__fadeInRight" style ="animation-delay: 1s; ">
+          A locksmith specializes in the installation, repair, and maintenance
+          of locks and security systems. Locksmiths possess extensive knowledge
+          of various types of locks, including mechanical locks, electronic
+          locks, and keyless entry systems. They are proficient in key cutting,
+          key duplication, and rekeying locks to provide enhanced security. They
+          can also troubleshoot and fix issues with malfunctioning locks or
+          keys.
+        </p>
+        <a href="tel:9505226910"><button class="btn">APPOINTMENT</button></a>
+      </div>
+      <div class="home-cont2" data-aos="fade-right">
+        <img
+          src="images/profile-view-attractive-handyman-using-power-drill-fix-door-knob-house.jpg"
+          class="img"
+        />
+      </div>
+    </div>
+    <div class="home1-cont" id="About">
+      <div class="home1-cont1">
+        <h2 class="lco animate__fadeInLeft" style ="animation-delay:51s;">2000</h2>
+        <div class="years">
+          <h5 class="lxo">20 YEARS EXPERIENCE</h5>
+          <h2 class="lxo">Locksmith Services</h2>
+        </div>
+      </div>
+      <div class="home1-cont2">
+        <div class="servi">
+          <h1>2700+</h1>
+          <p>Client Satification with Our Services</p>
+        </div>
+        <div class="servi">
+          <h1>2000+</h1>
+          <p>Project Completed By Our Services</p>
+        </div>
+      </div>
+    </div>
+    <!----------------------------------Services ------------------------------------------------>
+    <div class="haa" id="Services">
+      <div class="kwks">
+        <div class="haa1">
+          <h5>Our Services</h5>
+          <h1>We Provide Best Locksmith Services</h1>
+          <p>
+            A locksmith specializes in the installation, repair,and maintenance
+            of locks and security systems.
+          </p>
+          <button class="btn1">ALL SERVICES ></button>
+        </div>
+        <div class="haa2" data-aos="zoom-in">
+          <img src="images/access_4885457.png" class="img2" />
+          <h2 class="dead">Deadbolt Lock</h2>
+          <p class="dea">
+            A deadbolt or deadlock is a type of lock morticed into a wooden
+            door. Then, using a key from either side of the door, a bolt is
+            thrown into the door frame, thus securing the door.
+          </p>
+          <button class="deabtn">READ MORE -></button>
+        </div>
+        <div class="haa3" data-aos="zoom-in">
+          <img src="images/vehicle_13508836.png" class="img2" />
+          <h2 class="dead">Car Lockouts</h2>
+          <p class="dea">
+            A deadbolt or deadlock is a type of lock morticed into a wooden
+            door. Then, using a key from either side of the door, a bolt is
+            thrown into the door frame, thus securing the door.
+          </p>
+          <button class="deabtn">READ MORE -></button>
+        </div>
+      </div>
+
+      <div class="kwks1">
+        <div class="haa4" data-aos="zoom-in">
+          <img src="images/key_6414109.png" class="img2" />
+          <h2 class="dead">Smart Lockouts</h2>
+          <p class="dea">
+            A deadbolt or deadlock is a type of lock morticed into a wooden
+            door. Then, using a key from either side of the door, a bolt is
+            thrown into the door frame, thus securing the door.
+          </p>
+          <button class="deabtn">READ MORE -></button>
+        </div>
+        <div class="haa5" data-aos="zoom-in">
+          <img src="images/motorcycle_5459207.png" class="img2" />
+          <h2 class="dead">Emergency Lockouts</h2>
+          <p class="dea">
+            A deadbolt or deadlock is a type of lock morticed into a wooden
+            door. Then, using a key from either side of the door, a bolt is
+            thrown into the door frame, thus securing the door.
+          </p>
+          <button class="deabtn">READ MORE -></button>
+        </div>
+        <div class="haa6" data-aos="zoom-in">
+          <img src="images/protection_9506934.png" class="img2" />
+          <h2 class="dead">Safe Lock</h2>
+          <p class="dea">
+            A deadbolt or deadlock is a type of lock morticed into a wooden
+            door. Then, using a key from either side of the door, a bolt is
+            thrown into the door frame, thus securing the door.
+          </p>
+          <button class="deabtn">READ MORE -></button>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------------------------contact------------------------------------------>
+    <div class="conatct-cont" id="contact">
+      <div class="contact-cont1">
+        <h5 class="d1">MAKE APPOINTMENT</h5>
+        <div><hr /></div>
+        <h1 class="d2 animate__fadeInLeft" style ="animation-delay:2s;">Saving Your Money Efficient Locksmith Technologies</h1>
+        <p class="d3 animate__animated animate__bounce animate__delay-2s">
+          A locksmith operates a business that installs, repairs, opens or
+          modifies locks, or that originates keys for locks. (An individual who
+          simply duplicates existing keys is not considered a locksmith.)
+        </p>
+      </div>
+    </div>
+    <div class="contact1-cont1">
+      <div class="contact2-cont2">
+        <h2 class="cont">The Perfect Solution For All Locksmith Service</h2>
+        <br />
+        <p class="cont1">
+          A locksmith specializes in the installation, repair, and maintenance
+          of locks and security systems. Locksmiths possess extensive knowledge
+          of various types of locks, including mechanical locks, electronic
+          locks, and keyless entry systems. They are proficient in key cutting,
+          key duplication, and rekeying locks to provide enhanced security. They
+          can also troubleshoot and fix issues with malfunctioning locks or
+          keys.
+        </p>
+        <a
+          ><button class="btn-contact" href="#Services">
+            VIEW SERVICES
+          </button></a
+        >
+        <div class="map-cont">
+          <address>
+            <i class="fa-solid fa-location-dot">
+              Beside Kiran Hospital, Bhupalpally</i
+            >
+            <i class="fa-solid fa-clock"> Mon - Fri: 9:00am - 9:00 pm</i>
+            <i class="fa-solid fa-phone"> +91 9848197320, +91 9505226910</i>
+          </address>
+        </div>
+      </div>
+
+      <div class="contact3-cont3">
+        <form>
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Full Name"
+          />
+
+          <label for="lname">Email</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Email Address"
+          />
+
+          <label for="lname">Telephone</label>
+          <input
+            type="number"
+            id="lname"
+            name="lastname"
+            placeholder="Telephone"
+          />
+
+          <!-- <label for="lname">Date</label>
+    <input type="date" id="lname" name="lastname" placeholder="Date"> -->
+
+          <label for="country">Select Service</label>
+          <select id="country" name="country">
+            <option value="australia">Bike Keys</option>
+            <option value="canada">Car Keys</option>
+            <option value="usa">All vechile Keys</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13737.707327295315!2d79.86379851282348!3d18.4301883569941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a331b333a0610e5%3A0x3ab17d1514a527dd!2sVishwateja%20Keys%20Maker!5e0!3m2!1sen!2sin!4v1723620333915!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <!-----------------------------------------------------footer------------------------------------------>
+    <footer>
+      <div class="footer">
+        <div class="foo">
+          <img
+            src="images/vishwateja-keysmaker-high-resolution-logo-transparent.png"
+            class="logo1"
+          />
+          <p>
+            A locksmith specializes in the installation, repair, and maintenance
+            of locks and security systems. Locksmiths possess extensive
+            knowledge of various types of locks, including mechanical locks,
+            electronic locks, and keyless entry systems. They are proficient in
+            key cutting, key duplication, and rekeying locks to provide enhanced
+            security. They can also troubleshoot and fix issues with
+            malfunctioning locks or keys.
+          </p>
+        </div>
+        <div class="foo1">
+          <h1 class="kl">Quick Links</h1>
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="foo2">
+          <h1 class="kl">Newsletter</h1>
+          <p>
+            Please feel free to contact us via email at
+            team@vishwatejakeysmaker.com if you have any questions!
+          </p>
+          <div class="alo">
+            <input type="email" /><button class="alo1">Send</button>
+          </div>
+          <div class="icons">
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+        </div>
+      </div>
+      <h2>
+        Copyright © 2024 <span>VishwaTeja Keys Makers</span>, All right
+        reserved.
+      </h2>
+    </footer>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
